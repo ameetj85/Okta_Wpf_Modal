@@ -1,0 +1,13 @@
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\bin\Debug\Modal.dll
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\bin\Debug\Modal.pdb
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal.csproj.AssemblyReference.cache
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal_MarkupCompile.cache
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal_MarkupCompile.lref
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Themes\Generic.baml
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal.g.resources
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal.Properties.Resources.resources
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal.csproj.GenerateResource.cache
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal.csproj.CoreCompileInputs.cache
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal.dll
+C:\Users\ameet\source\repos\_Okta\Okta_Wpf\Modal\obj\Debug\Modal.pdb
