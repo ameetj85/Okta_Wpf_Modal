@@ -1,0 +1,45 @@
+﻿<Window x:Class="Okta_Wpf_Modal.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Okta_Wpf_Modal" 
+        xmlns:custom="clr-namespace:Modal;assembly=Modal"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="900" Width="1200">
+    <Grid>
+        <custom:Modal x:Name="modal" Panel.ZIndex="10">
+            <Grid Width="800" Height="800">
+                <!--<StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">-->
+                <DockPanel LastChildFill="True">
+                    <Button
+                            DockPanel.Dock="Top"
+                            x:Name="btnCloseModal"
+                            Margin="0 10 0 0"
+                            Padding="10 5"
+                            Click="OnCloseModalClick"
+                            Content="Close Dialog" />
+                    <WebBrowser DockPanel.Dock="Bottom" x:Name="browser"/>
+                </DockPanel>
+                <!--</StackPanel>-->
+            </Grid>
+        </custom:Modal>
+
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" >
+            <Button
+                    x:Name="btnShowModal"
+                    Margin="0 10 0 0"
+                    Padding="10 5"
+                    Height="50"
+                    Background="Green"
+                    Foreground="White"
+                    Click="OnShowModalClick"
+                    Content="Sign Into Okta" />
+
+            <TextBox x:Name="textBoxOutput" HorizontalAlignment="Center" Height="300" TextWrapping="Wrap" Text="" Width="756"
+                IsReadOnly="True" ScrollViewer.VerticalScrollBarVisibility="Auto"
+                />
+
+        </StackPanel>
+    </Grid>
+</Window>
